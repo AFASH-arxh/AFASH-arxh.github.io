@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+   
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+
+}
+
+.header{
+    background-color: transparent;
+    backdrop-filter: blur(1.5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 5px 10%;
+}
+
+.header .logo{
+    cursor: pointer;
+}
+
+.header .logo img{
+    height: 70px;
+    width: auto;
+    transition: all 0.3s;
+    margin-left: 2px;
+}
+
+.header .logo img:hover{
+    transform: scale(1.2);
+}
+
+.header .nav-links{
+    list-style: none;
+}
+
+.header .nav-links li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+.header .nav-links li:hover{
+    transform: scale(1.1);
+}
+
+.header .nav-links a{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 9px 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    background:black ;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.header .nav-links li a:hover{
+    background-color:rgb(247, 247, 247) ;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
+
+.header .btm button{
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding: 9px 25px;
+    background:black ;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.header .btm button:hover{
+    background-color:rgb(247, 247, 247) ;
+    color: rgb(0, 0, 0);
+    transform: scale(1.1);
+}
